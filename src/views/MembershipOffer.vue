@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <h1>This is a login page</h1>
+    <h1>This is a Membership Offer page, redirect non members here to sign up</h1>
     <p>Anyone can see this page</p>
     <router-link to="/">Go to Home</router-link>
   </div>
@@ -11,7 +11,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class LogIn extends Vue {
+export default class MembershipOffer extends Vue {
 
 }
 

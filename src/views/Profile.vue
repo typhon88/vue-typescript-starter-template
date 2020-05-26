@@ -1,17 +1,18 @@
 <template>
-  <div class="login">
-    <h1>This is a login page</h1>
-    <p>Anyone can see this page</p>
+  <div class="profile">
+    <h1>This is a Profile page</h1>
+    <p>The user needs to be logged in to view this page.</p>
     <router-link to="/">Go to Home</router-link>
   </div>
 </template>
+
 
 <script lang="ts">
 
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class LogIn extends Vue {
+export default class Profile extends Vue {
 
 }
 
